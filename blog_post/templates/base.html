@@ -1,0 +1,74 @@
+
+{% load static from staticfiles%}
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Road Blog</title>
+
+
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous" />
+    </head>
+
+    <body>
+        <style>
+            body {
+            font-family: "Roboto", sans-serif;
+            font-size: 17px;
+            background-color: black;
+			color: white;
+        }
+        .shadow {
+        	box-shadow: 0 16px 48px #E3E7EB;
+        }
+        .masthead {
+            background: black;
+            height: auto;
+            padding-bottom: 15px;
+
+            padding-top: 10px;
+
+
+
+
+        }
+
+    </style>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow" style="color:red;font-size:40%" >
+            <div class="container-fluid">
+				<a><img src="{% static 'Image/python.jpeg' %}" width="65" height="65" alt="python" style="color:red;font-size:70%" ><br>Powered by: SABLAY </a>
+                <a class="navbar-brand" href="{% url 'home' %}" >HOME</a>
+                <a class="navbar-brand" href="../about.html" >ABOUT US</a>
+				<a></a><a></a><a></a><a></a><a></a><a></a>
+            </div>
+        </nav>
+		
+
+
+
+
+
+
+
+
+		<header class="masthead")>
+	  		<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+				    <div class=" col-md-8 col-md-10 mx-auto">
+				        <div class="site-heading" >
+				            <h3 class=" site-heading my-4 mt-3 text-white"> This is a Road Blog </h3>
+				        </div>
+				    </div>
+				</div>
+			</div>
+		</header>
+    </body>
+</html>
+        {% block content %}
+        {% endblock content %}

@@ -1,0 +1,30 @@
+virtualenv planB_env
+planB_env\Scripts\activate
+pip install django==2.2
+python manage.py runserver
+rm -rf .virtualenvs/food_tracker_env
+
+github.com
+UN: ddosado
+from github - go to >>
+
+deploy project to - pythonAnywhere.com
+UN: ddosado
+PW: chengwa
+
+
+python -V
+mkvirtualenv --python=/usr/bin/python3.7 food_tracker_env
+pip install django==2.2
+rm -rf .virtualenvs/food_tracker_env
+
+Your web app's domain name
+Your account doesn't support custom domain names, so your PythonAnywhere web app will live at ddosado.pythonanywhere.com.
+
+python manage.py createsuperuser
+
+
+
+
+
+===============================
